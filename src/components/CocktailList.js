@@ -1,6 +1,6 @@
 import React from 'react';
 import { Cocktail } from './Cocktail';
-import { Loading } from './Loading';
+import Loading from './Loading';
 import { useGlobalContext } from '../context';
 
 export const CocktailList = () => {

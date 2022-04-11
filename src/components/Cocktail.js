@@ -10,8 +10,8 @@ export const Cocktail = ({ image, name, id, info, glass }) => {
           <h5 className='card-title'>{name}</h5>
           <h5>{glass}</h5>
           <p className='card-text'>{info}</p>
-          <Link to='/' className='btn btn-primary'>
-            Go somewhere
+          <Link to={`/cocktail/${id}`} className='btn btn-primary'>
+            Details
           </Link>
         </div>
       </div>
