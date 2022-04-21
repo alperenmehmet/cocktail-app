@@ -16,6 +16,7 @@ export const CocktailList = () => {
       </h2>
     );
   }
+
   return (
     <div className='container'>
       <div className='row'>
